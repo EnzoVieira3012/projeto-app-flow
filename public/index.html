@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Podcast Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Podcast Manager 🎧</h1>
+
+    <!-- Formulário para adicionar podcasts -->
+    <form id="podcast-form">
+      <input type="text" id="title" placeholder="Título do Podcast" required />
+      <textarea id="description" placeholder="Descrição do Podcast" required></textarea>
+      <button type="submit">Adicionar Podcast</button>
+    </form>
+
+    <h2>Lista de Podcasts</h2>
+    <div id="podcast-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
